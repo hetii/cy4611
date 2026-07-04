@@ -1,0 +1,83 @@
+(ExpressProject ""
+  (ProjectType "UNKNOWN")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\cy4611.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Action "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}")
+    (NoModify)
+    (BOM_Scope "0")
+    (BOM_Report_File
+       "C:\WINDOWS\DESKTOP\USB\ATA REF DESIGNS\CY4611\CY4611 REV C\CY4611.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File
+       "C:\WINDOWS\DESKTOP\USB\ATA REF DESIGNS\CY4611\CY4611 REV C\CY4611.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (BOM_View_Output "FALSE")
+    (Netlist_TAB "9")
+    (OTHER_Part_Value "{Value}")
+    (OTHER_Netlist_File
+       "C:\WINDOWS\DESKTOP\USB\ATA REF DESIGNS\CY4611\CY4611 REV +B\CY4611.NET")
+    (OTHER_Netlist_File2
+       "C:\WINDOWS\DESKTOP\USB\ATA REF DESIGNS\CY4611\CY4611 REV +B\CY4611.CMP")
+    (OTHER_View_Output "FALSE")
+    (OTHER_View_Output2 "FALSE")
+    (OTHER_Formatter "padspcb.dll")
+    (OTHER_PCB_Footprint "{PCB Footprint}")
+    (OTHER_Switch0 "FALSE")
+    (OTHER_Switch1 "FALSE")
+    (OTHER_Switch2 "FALSE")
+    (OTHER_Switch3 "FALSE")
+    (OTHER_Switch4 "FALSE")
+    (OTHER_Switch5 "FALSE")
+    (OTHER_Switch6 "FALSE")
+    (DRC_Scope "0")
+    (DRC_Action "1")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_Check_Ports "TRUE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "TRUE")
+    (DRC_SDT_Compatibility "TRUE")
+    (DRC_Report_Off-grid_Objects "TRUE")
+    (DRC_Check_Unconnected_Wires "TRUE")
+    (DRC_Report_Netnames "TRUE")
+    (DRC_View_Output "FALSE")
+    (DRC_Report_File
+       "C:\WINDOWS\DESKTOP\USB\ATA REF DESIGNS\CY4611\CY4611 REV +B\CY4611.DRC"))
+  (Folder "Outputs"
+    (File ".\cy4611.bom"
+      (Type "Report"))
+    (File ".\cy4611.net"
+      (Type "Report"))
+    (File ".\cy4611.drc"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (Folder "Simulation Resources"
+    (Folder "In Design")
+    (Folder "Compiled")
+    (Folder "Timed"))
+  (GlobalState
+    (Physical 0)
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\cy4611.dsn")
+      (Path "Design Resources" ".\cy4611.dsn" "CY4611")
+      (Path "Outputs")
+      (Select "Design Resources" ".\cy4611.dsn" "CY4611" "MAIN"))
+    (HierarchyView)
+    (Document
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -28 0 200 0 412"))
+      (Tab 0))))

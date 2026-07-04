@@ -1,0 +1,17 @@
+"dscr.obj",
+"reset.obj",
+"Startup.obj",
+"USBJmpTb.obj",
+"atareset.obj",
+"fw.obj",
+"gpif.obj",
+"ide.obj",
+"periph.obj",
+"scsi.obj",
+"..\..\Target\Lib\Fx2\Ezusb.lib",
+"eeprom.obj",
+"eeproma.obj" 
+TO "fx2_ata" REGFILE (.\fx2_ata.ORC) 
+RAMSIZE(256) 
+CODE( 0x00-0x1faf )
+XDATA( 0x1fb0-0x1fff , ?XD?ATARESET(0xe000) )

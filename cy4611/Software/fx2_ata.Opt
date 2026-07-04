@@ -1,0 +1,56 @@
+### uVision2 Project, (C) Keil Software
+### Do not modify !
+
+ cExt (*.c)
+ aExt (*.a*; *.src)
+ oExt (*.obj)
+ lExt (*.lib)
+ tExt (*.txt)
+ pExt (*.plm)
+ DaveTm { 0,0,0,0,0,0,0,0 }
+
+Target (fx2_ata), 0x0000 // Tools: 'MCS-51'
+GRPOPT 1,(Source Group 1),1,0,0
+GRPOPT 2,(Local Dependencies),1,0,0
+GRPOPT 3,(Global Dependencies),1,0,0
+
+OPTFFF 1,1,2,0,0,229,241,0,<.\dscr.a51><dscr.a51> { 44,0,0,0,2,0,0,0,3,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,233,255,255,255,0,0,0,0,0,0,0,0,103,2,0,0,102,1,0,0 }
+OPTFFF 1,2,2,0,0,0,0,0,<.\reset.a51><reset.a51> 
+OPTFFF 1,3,2,0,0,0,0,0,<.\Startup.a51><Startup.a51> 
+OPTFFF 1,4,2,0,0,0,0,0,<.\USBJmpTb.a51><USBJmpTb.a51> 
+OPTFFF 1,5,1,0,0,0,0,0,<.\atareset.c><atareset.c> 
+OPTFFF 1,6,1,0,0,0,0,0,<.\fw.c><fw.c> 
+OPTFFF 1,7,1,0,0,0,0,0,<.\gpif.c><gpif.c> 
+OPTFFF 1,8,1,0,0,0,0,0,<.\ide.c><ide.c> 
+OPTFFF 1,9,1,0,0,0,0,0,<.\periph.c><periph.c> 
+OPTFFF 1,10,1,0,0,0,0,0,<.\scsi.c><scsi.c> 
+OPTFFF 1,11,4,0,0,0,0,0,<..\..\Target\Lib\Fx2\Ezusb.lib><Ezusb.lib> 
+OPTFFF 1,12,1,0,0,0,0,0,<.\eeprom.c><eeprom.c> 
+OPTFFF 1,13,2,0,0,0,0,0,<.\eeproma.a51><eeproma.a51> 
+OPTFFF 2,14,5,0,0,0,0,0,<.\atapi.h><atapi.h> 
+OPTFFF 2,15,5,0,0,0,0,0,<.\gpif.h><gpif.h> 
+OPTFFF 2,16,5,0,0,0,0,0,<.\scsi.h><scsi.h> 
+OPTFFF 3,17,5,0,0,0,0,0,<..\..\Target\Inc\fx2regs.h><fx2regs.h> 
+OPTFFF 3,18,5,0,0,0,0,0,<..\..\Target\Inc\Fx2.h><Fx2.h> 
+
+
+TARGOPT 1, (fx2_ata)
+ CLK51=25000000
+  OPTTT 1,1,1,0
+  OPTHX 0,65535,0,0,0
+  OPTLX 120,65,8,<.\>
+  OPTLT 1,1,1,0,1,1,0,1,1,0,0
+  OPTXL 1,1,1,1,1,1,1,0,0
+  OPTFL 1,0,1
+  OPTBL 0,(Add on databooks)<DATASHTS\ADDBOOKS.PDF>
+  OPTBL 1,(MCS 51 Instruction Set)<DATASHTS\ANCHOR\ISM51.PDF>
+  OPTDL (S8051.DLL)()(DP51.DLL)(-p52)(S8051.DLL)()(TP51.DLL)(-p52)
+  OPTDBG 49150,0,()()()()()()()()()() ()()()()
+  OPTKEY 0,(MON51)(-S1 -B38400 -O16)
+  OPTBB 0,0,584,1,-16775092,0,0,0,0,1,<IDE.C>()()
+  OPTWA 0,1,(dataTransferLen)
+  OPTDF 0x84
+  OPTLE <>
+  OPTLC <>
+EndOpt
+
